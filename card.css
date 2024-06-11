@@ -1,0 +1,12 @@
+.all-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 200px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+}
