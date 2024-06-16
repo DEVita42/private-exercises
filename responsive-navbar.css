@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a, .navbar ul li button, select, .navbar ul li button[disabled] {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar ul li button[disabled] {
+    cursor: not-allowed;
+}
+
+input[type="search"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.hamburger-menu {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul, .navbar h1, nav > div:not(.hamburger-menu) {
+        display: none; 
+    }
+    
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .hamburger-icon {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
