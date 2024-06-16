@@ -1,0 +1,29 @@
+#green {
+  background-color: #98fb98;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+#yellow {
+  background-color: #ffffe0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#red {
+  background-color: #ffcccb;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#blue {
+  background-color: #add8e6;
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+
+#orange {
+  background-color: #ffdab9;
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+}
